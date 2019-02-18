@@ -19,7 +19,7 @@ var app = express();
 //express session option settings (only if we want to maintain session)
 const hour = 3600000; //one hour
 var sessionOptions = {
-    secret: 'themede@seappn0deserver!',
+    secret: 'thesecretkeythatyouwant',
     resave: false,
     saveUninitialized: false,
     cookie: {

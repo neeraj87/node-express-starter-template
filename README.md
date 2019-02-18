@@ -24,6 +24,8 @@ You can install them all together by doing
 `npm install --save body-parser express mysql2 sequelize express-handlebars passport passport-local async uuid winston express-session path dotenv
 `
 
+Remember to change the **secret** key in the sessionOptions variable in app.js file
+
 License
 ----
 
