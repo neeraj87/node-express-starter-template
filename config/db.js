@@ -28,8 +28,6 @@ const sequelize = new Sequelize(process.env.DB_NAME, process.env.DB_USER, proces
 
 const User = require('../models/User')(sequelize, Sequelize);
 
-LoginLog.removeAttribute('id');
-
 module.exports = {
     User
 };
